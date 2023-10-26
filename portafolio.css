@@ -1,29 +1,40 @@
 body{
     background-color:   aliceblue ;
- 
+    font-family: 'Zilla Slab', serif;
+    display: flex;
+    flex-direction: row;
 }
 
 
-header img{
+#img_header{
     width: 200px;
     height: 200px;
+    
 }
 
-header{
+nav{
 
     background-color: rgba(4, 46, 44, 0.685) ;
-    width: 25%;
+    width: 20%;
     height: 100%;
-    padding: 30px;
-    font-family: 'Zilla Slab', serif;
-    position: sticky;
+    padding: 70px 10px;
+    position: fixed;
+    z-index: 1;
+    
 }
 
 
-header ul{
+nav ul{
     list-style: none;
     padding-top: 40px;
 }
+
+
+main{
+    margin-left: 260px; 
+    padding: 20px; 
+}
+
 
 .listabar{
     padding: 10px 5px;
@@ -32,4 +43,118 @@ header ul{
 
 .listabar:hover{
     color: aliceblue;
+}
+
+
+.Claudia{
+    margin-top: 80px;
+    margin-left: 60px;
+    padding: 70px 20px;
+}
+
+.nombre{
+    display: flex;
+    
+}
+
+.namee{
+    color:  rgba(6, 77, 73, 0.527) ;
+    font-size: 70px;
+}
+
+.apellido{
+    padding-left: 30px;
+    color: rgba(214, 13, 13, 0.514);
+    font-size: 70px;
+}
+
+.iconss{
+    width: 40px;
+    margin: 10px 5px 10px 50px;
+    cursor: pointer;
+    transition:  box-shadow 0.3s ease;
+    border-radius: 20px;
+}
+
+.iconss:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3) ;
+    background-color:  rgb(211, 214, 13);
+    
+}
+
+
+button{
+    cursor: pointer;
+    transition:  box-shadow 0.3s ease;
+}
+
+button:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3) ;
+}
+
+.CV{
+    padding: 30px;
+}
+
+.Cv_1{
+    padding-bottom: 20px;
+}
+
+h5{
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+}
+
+.iconos{
+    padding: 10px 30px;
+}
+
+/* sobre mi */
+
+.sobre_mi{
+    margin: 150px 50px;
+}
+
+/* portafolio */
+
+
+.contenedor_P{
+    background-color:rgba(6, 77, 73, 0.527) ;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+.tex_conte{
+    color: aliceblue;
+    text-align: center;
+    margin: 20px;
+}
+
+#img1{
+    width: 100%;
+}
+
+#img2{
+    width: 100%;
+}
+
+.herramientas{
+    width: 50px;
+    margin-left: 45px;
+}
+
+.herramientas2{
+    width: 50px;
+}
+
+#con_img_her2{
+    margin-left: 20px;
 }
