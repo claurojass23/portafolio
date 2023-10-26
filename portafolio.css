@@ -1,0 +1,35 @@
+body{
+    background-color:   aliceblue ;
+ 
+}
+
+
+header img{
+    width: 200px;
+    height: 200px;
+}
+
+header{
+
+    background-color: rgba(4, 46, 44, 0.685) ;
+    width: 25%;
+    height: 100%;
+    padding: 30px;
+    font-family: 'Zilla Slab', serif;
+    position: sticky;
+}
+
+
+header ul{
+    list-style: none;
+    padding-top: 40px;
+}
+
+.listabar{
+    padding: 10px 5px;
+    cursor: pointer;
+}
+
+.listabar:hover{
+    color: aliceblue;
+}
