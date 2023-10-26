@@ -70,7 +70,7 @@ main{
 
 .iconss{
     width: 40px;
-    margin: 10px 5px 10px 50px;
+    margin: 10px 5px 10px 20px;
     cursor: pointer;
     transition:  box-shadow 0.3s ease;
     border-radius: 20px;
@@ -120,10 +120,16 @@ a{
 
 /* portafolio */
 
+.section1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 
 .contenedor_P{
     background-color:rgba(6, 77, 73, 0.527) ;
-    width: 25%;
+    width: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -148,13 +154,24 @@ a{
 
 .herramientas{
     width: 50px;
-    margin-left: 45px;
+    margin-left: 20px;
 }
 
 .herramientas2{
     width: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
-#con_img_her2{
-    margin-left: 20px;
+#img3{
+    width: 100%;
 }
+
+#img4{
+    width: 100%;
+}
+
+.herramientas4{
+    width: 50px;
+}
+
