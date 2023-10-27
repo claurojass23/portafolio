@@ -14,7 +14,7 @@ body{
 
 nav{
 
-    background-color: rgba(4, 46, 44, 0.685) ;
+    background-color: rgba(6, 77, 73, 0.527) ;
     width: 20%;
     height: 100%;
     padding: 70px 10px;
@@ -39,6 +39,7 @@ main{
 .listabar{
     padding: 10px 5px;
     cursor: pointer;
+    color: black;
 }
 
 .listabar:hover{
@@ -117,6 +118,10 @@ a{
 .sobre_mi{
     margin: 150px 50px;
 
+}
+
+#sobre_mii{
+    margin-bottom: 200px;
 }
 
 #enfoque{
