@@ -203,3 +203,27 @@ h1{
 .herramientas5{
     width: 80px;
 }
+
+.skills{
+    margin: 30px 50px;
+}
+
+.icom_Amarillo{
+    width: 40px;
+    margin: 20px 20px;
+}
+ 
+#contacto{
+    display: flex;
+    flex-direction: column;
+}
+
+.cont_icons{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.parrafoi{
+    margin: 30px 10px;
+}
