@@ -9,6 +9,9 @@ body{
 #img_header{
     width: 200px;
     height: 200px;
+    border-radius: 50%;
+    border: solid;
+    margin-left: 20px;
     
 }
 
@@ -40,6 +43,7 @@ main{
     padding: 10px 5px;
     cursor: pointer;
     color: black;
+    font-size: 25px;
 }
 
 .listabar:hover{
@@ -48,25 +52,31 @@ main{
 
 
 .Claudia{
-    margin-top: 80px;
-    margin-left: 60px;
-    padding: 70px 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 70px 20px
 }
 
 .nombre{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(167, 209, 245, 0.39);
+    border-radius:20px;
+    margin: 0 100px;
+    border: solid;
     
 }
 
 .namee{
     color:  rgba(6, 77, 73, 0.527) ;
-    font-size: 70px;
+    font-size: 90px;
 }
 
 .apellido{
     padding-left: 30px;
     color: rgba(214, 13, 13, 0.514);
-    font-size: 70px;
+    font-size: 90px;
 }
 
 .iconss{
@@ -94,23 +104,36 @@ button:hover{
 }
 
 .CV{
-    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:center ;
+    margin-left: 170px;
+    margin-top: 30px;
 }
 
 .Cv_1{
     padding-bottom: 20px;
+    font-size: 20px;
 }
 
 h5{
     font-weight: 600;
+    font-size: 25px;
+    text-align: center;
 }
 
 a{
     text-decoration: none;
 }
 
-.iconos{
-    padding: 10px 30px;
+.iconss{
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+#icon_1_nom{
+    margin-left: 170px;
 }
 
 /* sobre mi */
@@ -126,6 +149,8 @@ a{
 
 #enfoque{
     color: rgba(6, 77, 73, 0.527) ;
+    font-size: 25px;
+    margin: 30px 0;
 }
 
 /* portafolio */
@@ -199,6 +224,8 @@ a{
 
 h1{
     color: rgba(214, 13, 13, 0.514);
+    font-size: 65px;
+    text-align: center;
 }
 
 .titulopor{
@@ -211,13 +238,29 @@ h1{
 
 .skills{
     margin: 30px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .icom_Amarillo{
-    width: 40px;
-    margin: 20px 20px;
+    width: 50px;
+}
+
+#ama_con_1{
+    margin-right: 10px;
 }
  
+#ama_con_2{
+
+    margin-left: 5px;
+}
+
+#ama_con_3{
+    margin-right: 70px;
+}
+
 #contacto{
     display: flex;
     flex-direction: column;
@@ -226,9 +269,35 @@ h1{
 .cont_icons{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
    
 }
 
 .parrafoi{
     margin: 30px 10px;
+}
+
+.laboral{
+    font-size: 20px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 767px) {
+    .namee, .apellido {
+        font-size: 30px;
+    }
+    .iconss {
+        width: 20px;
+    }
+    button {
+        margin: 5px 0;
+    }
+    h1, .titulopor, .parrafoi {
+        font-size: 25px;
+    }
+
 }

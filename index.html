@@ -14,7 +14,7 @@
 </head>
 <body>
     <nav>
-        <img id="img_header" src="./imagenes/WhatsApp Image 2023-09-07 at 8.08.51 PM.jpeg">
+        <img id="img_header" src="./imagenes/WhatsApp Image 2022-10-22 at 2.32.08 PM.jpeg">
         <ul>
             <a href="#claudiaa"><li class="listabar">CLAUDIA</li></a>
             <a href="#sobre_mii"><li class="listabar">SOBRE MI</li></a>
@@ -32,11 +32,11 @@
             </div>
             <div class="CV">
                 <h5 class="Cv_1">BIENVENIDOS A MI PORTAFOLIO COMO DESARROLLADORA FULL STACK</h5>
-                <p class="Cv_1">si quieres ponerte en contacto conmigo escribeme a <a href="https://www.google.com/intl/es/gmail/about/" target="_blank">cr1894534@gmail.com</a> </p>
-                <button type="button" class="btn btn-dark" id="descargarBtn" onclick="descargarPDF()">Descarga mi CV</button>
+                <p class="Cv_1">Para cualquier consulta, no dudes en escribirme a <a href="https://www.google.com/intl/es/gmail/about/" target="_blank">cr1894534@gmail.com</a> </p>
+                <button type="button" class="btn btn-warning" id="descargarBtn" onclick="descargarPDF()">Descarga mi CV</button>
             </div>
             <div class="iconos">
-                <a  href="https://www.linkedin.com/in/claudia-rojas-salas-bb486b211/" target="_blank"><img class="iconss" src="./iconos/linkedin.png"></a>
+                <a  href="https://www.linkedin.com/in/claudia-rojas-salas-bb486b211/" target="_blank"><img class="iconss" id="icon_1_nom" src="./iconos/linkedin.png"></a>
                 <a href="https://github.com/claurojass23" target="_blank"><img class="iconss" src="./iconos/github.png"></a>
                 <a  href="https://www.instagram.com/cris_clrs/" target="_blank"><img class="iconss" src="./iconos/instagram (1).png"></a>
             </div>
@@ -45,9 +45,9 @@
         
          <div class="sobre_mi" id="sobre_mii">
             <h1>SOBRE MI</h1>
-            <p>Mi experiencia laboral en serigrafía me proporcionó una sólida base en diseño y creatividad, lo que me inspiró a explorar el desarrollo web, donde combino la estética con la funcionalidad.</p>
+            <p  class="laboral">Mi experiencia laboral en serigrafía me proporcionó una sólida base en diseño y creatividad, lo que me inspiró a explorar el desarrollo web, donde combino la estética con la funcionalidad.</p>
             <h5 id="enfoque">"MI ENFOQUE ESTÁ EN APRENDER Y AMPLIAR MIS OPORTUNIDADES LABORALES EN EL MUNDO DEL DESARROLLO WEB."</h5>
-            <p>Mira mi experinecia laboral en <a href="https://www.linkedin.com/in/claudia-rojas-salas-bb486b211/" target="_blank">LinkenIn</a></p>
+            <p class="laboral">Mira mi experinecia laboral en <a href="https://www.linkedin.com/in/claudia-rojas-salas-bb486b211/" target="_blank">LinkenIn</a></p>
          </div>
 
 
@@ -142,26 +142,34 @@
     <h1>SKILLS</h1>
     <div class="skills">
         <h5>LENGUAJES DE PROGRAMACION</h5>
-        <img class="herramientas4" src="./iconos/html-5.png">
-        <img class="herramientas4" src="./iconos/css-3.png">
-        <img class="herramientas4" src="./iconos/js.png">
+        <div>
+          <img class="herramientas4" src="./iconos/html-5.png">
+          <img class="herramientas4" src="./iconos/css-3.png">
+          <img class="herramientas4" src="./iconos/js.png">
+        </div>
     </div>
     <div class="skills">
       <h5>FRAMEWORKS Y LIBRERIAS</h5>
-      <img class="herramientas4" src="./iconos/bootstrap.png">
-      <img class="herramientas4" src="./iconos/react.png">
+      <div>
+        <img class="herramientas4" src="./iconos/bootstrap.png">
+        <img class="herramientas4" src="./iconos/react.png">
+      </div>
     </div>
     <div class="skills">
         <h5>SOTWARE Y HERRAMIENTAS</h5>
-        <img class="herramientas4" src="./iconos/photoshop.png">
-        <img class="herramientas4" src="./iconos/estreno-profesional.png">
-        <img class="herramientas4" src="./iconos/estudio-visual.png">
+        <div>
+          <img class="herramientas4" src="./iconos/photoshop.png">
+          <img class="herramientas4" src="./iconos/estreno-profesional.png">
+          <img class="herramientas4" src="./iconos/estudio-visual.png">
+        </div>
     </div>
     <div class="skills">
         <h5>DESARROLLO Y BD</h5>
-        <img class="herramientas5" src="./iconos/Mongo-db-logo.png">
-        <img class="herramientas5" src="./iconos/expressjs.webp">
-        <img class="herramientas5" src="./iconos/nodejs.png">
+        <div>
+          <img class="herramientas5" src="./iconos/Mongo-db-logo.png">
+          <img class="herramientas5" src="./iconos/expressjs.webp">
+          <img class="herramientas5" src="./iconos/nodejs.png">
+        </div>
     </div>
     
   </div>
@@ -169,15 +177,15 @@
 
   <div class="sobre_mi" id="contacto">
     <h1>CONTACTAME!</h1>
-    <div class="cont_icons">
+    <div class="cont_icons" id="ama_con_1">
         <img class="icom_Amarillo" src="./iconos/correo-electronico.png">
         <p class="parrafoi">Email <a href="https://www.google.com/intl/es/gmail/about/" target="_blank">cr1894534@gmail.com</a> </p>
     </div>
-   <div class="cont_icons">
+   <div class="cont_icons" id="ama_con_2">
      <img  class="icom_Amarillo" src="./iconos/linkedin (1).png">
      <p class="parrafoi">Linkedin <a href="https://www.linkedin.com/in/claudia-rojas-salas-bb486b211/" target="_blank">in/Claudia Rojas Salas</a></p>
    </div>
-    <div class="cont_icons">
+    <div class="cont_icons" id="ama_con_3">
         <img  class="icom_Amarillo" src="./iconos/instagram (2).png">
         <p class="parrafoi">Instagram <a href="https://www.instagram.com/cris_clrs/" target="_blank">@cris_clrs</a></p>
     </div>

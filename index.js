@@ -4,7 +4,7 @@ document.getElementById('descargarBtn').addEventListener('click', function() {
   
   function descargarPDF() {
     
-    let pdfURL = '';
+    let pdfURL ='';
     let a = document.createElement('a');
     a.href = pdfURL;
     a.download = 'claudia_rojas.pdf'; 
